@@ -1,0 +1,11 @@
+.book {
+	width: 100%;
+	margin-bottom: 10px;
+	overflow-y: overlay;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.book h2, .book h4, .book p {
+	padding: 0px 2px 0px 5px;
+}

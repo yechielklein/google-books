@@ -1,6 +1,7 @@
+import './BookShow.css';
+
 const BookShow = ({ book }) => (
-	<div>
-		<hr />
+	<div className="book">
 		<img src={book.imageLinks.thumbnail} alt="cover" />
 		<h2>{book.title}</h2>
 		<h4>{book.authors.join(', ')}</h4>

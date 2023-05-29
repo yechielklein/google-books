@@ -1,3 +1,5 @@
+import './BookList.css';
+
 import BookShow from './BookShow';
 
 const BookList = ({ books }) => {
@@ -8,7 +10,7 @@ const BookList = ({ books }) => {
 		/>
 	));
 
-	return <div>{renderedBooks}</div>;
+	return <div className="book-list">{renderedBooks}</div>;
 };
 
 export default BookList;

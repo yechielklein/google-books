@@ -1,0 +1,5 @@
+.book-list {
+	columns: 4 200px;
+	column-gap: 10px;
+	text-overflow: clip;
+}
